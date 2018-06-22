@@ -1,0 +1,29 @@
+svg {
+    display: block;
+    margin: 0 auto;
+}
+
+.activePointPath {
+    stroke: #f10a0a;
+    stroke-width: 10;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.pointPath {
+    fill: none;
+    stroke: black;
+    stroke-width: 10;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    cursor: pointer;
+}
+
+.ball {
+    background: #ffffff;
+    width: 10px;
+    height: 10px;
+    position: relative;
+    top: 45px;
+    left: 10px;
+}
